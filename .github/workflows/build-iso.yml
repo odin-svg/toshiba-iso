@@ -68,7 +68,7 @@ jobs:
           lightdm
           lightdm-gtk-greeter
           polkit
-          ttf-inter
+          ttf-liberation
           noto-fonts
           noto-fonts-emoji
           papirus-icon-theme
@@ -130,7 +130,7 @@ jobs:
           padding = { x = 12, y = 10 }
 
           [font]
-          normal = { family = "Inter", size = 11.5 }
+          normal = { family = "Liberation Sans", size = 11.5 }
 
           [colors.primary]
           background = "#1e1e2e"
