@@ -16,7 +16,10 @@ jobs:
         run: |
           pacman -Syu --noconfirm
           pacman -S --noconfirm --needed archiso git rsync squashfs-tools dosfstools e2fsprogs xorriso
-
+      - name: Install archiso tools
+        run: |
+          pacman -Syu --noconfirm
+          pacman -S --noconfirm archiso
       - name: Checkout code
         uses: actions/checkout@v4
 
